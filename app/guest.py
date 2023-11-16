@@ -33,8 +33,8 @@ class Guest:
         return self.nationality
     
     
-Saed_Guest = Guest("Saed", 17, "England", 7399022238, True)
+Guest1 = Guest("Faisal", 47, "Somaliland", 7288888888, True)
 
-print(Saed_Guest.getGuestInfo())
+print(Guest1.getGuestInfo())
 
 
