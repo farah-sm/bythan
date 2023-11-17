@@ -13,13 +13,13 @@ class Booking:
     
     def overlap(self):
         if self.g_checkOut() > self.g_checkIn() and self.g_checkIn() < self.g_checkOut():
-            return True
+            return "This date is invalid"
         else:
-            return False
+            return "Success, these dates are correct"
         
     def infoPrint(self):
-        return "Date checked in " + self.checkIn() + ", Date checkedout: " + self.checkOut()
+        return "Date checked in " + str(self.g_checkIn()) + ", Date checkedout: " + str(self.g_checkOut())
     
-first_booking = Booking("24/22/2023", "52/22/2023")
+first_booking = Booking("04/08/2025", "00/04/2030")
 
-#print(first_booking.overlap())
+print(first_booking.overlap())
