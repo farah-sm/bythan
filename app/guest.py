@@ -3,7 +3,7 @@ class Guest:
     name = ''
     age = ''
     nationality = ''
-    mobile = 0
+    mobile = int
     id = False
     
     def __init__(self, name, age, nationality, mobile, id) :
@@ -33,8 +33,8 @@ class Guest:
         return self.nationality
     
     
-Guest1 = Guest("Faisal", 47, "Somaliland", 7288888888, True)
+Guest_1 = Guest("Rofi", 19, "Bengali", 7399288837, True)
 
-print(Guest1.getGuestInfo())
+print(Guest_1.getGuestInfo())
 
 
