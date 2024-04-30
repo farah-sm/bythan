@@ -9,3 +9,18 @@ print(name)
 name.pop("saed")
 
 print(name)
+
+
+---------------------------
+
+saed = {}
+
+saed = {'saed': 2, 'abdi': 9, 99: 'mo'}
+
+isIn = 'saed' in saed
+
+value = saed.value()
+index = saed.items()
+keys = saed.keys()
+
+print(isIn) #bool
