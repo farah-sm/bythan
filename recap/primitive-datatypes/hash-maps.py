@@ -1,3 +1,5 @@
+# Big O(1) -- Better than Array's as you don't need to loop linearly
+
 name = {}
 
 name["saed"] = 99
