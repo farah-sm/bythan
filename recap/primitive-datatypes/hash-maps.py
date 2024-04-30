@@ -7,7 +7,6 @@ name["ali"] = 22
 print(name)
 
 name.pop("saed")
-name.append("mohammed")
 
 print(name)
 
